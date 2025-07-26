@@ -10,4 +10,4 @@ class Get:
         headers = {'Content-Type': 'application/json'} 
         params = {'id': self.id}  
         response = requests.get(self.baseUrl, headers=headers, params=params)
-        return response
+        return response 
